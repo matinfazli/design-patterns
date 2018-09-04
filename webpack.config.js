@@ -10,7 +10,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
     context: sourcePath,
     entry: {
-        composite: "./structural/composite/main.ts"
+        'structural/composite': './structural/composite/main.ts'
     },
     output: {
         path: outPath,
