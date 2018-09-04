@@ -1,7 +1,6 @@
-export class Main {
+class Main {
 
     constructor() {
-
     }
 
 }
