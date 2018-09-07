@@ -10,6 +10,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
     context: sourcePath,
     entry: {
+        'creational/abstract-factory': './creational/abstract-factory/main.ts',
         'structural/composite': './structural/composite/main.ts'
     },
     output: {
@@ -34,6 +35,7 @@ module.exports = {
     plugins: [
         new CopyWebpackPlugin([
             { from: './index.html', to: './' },
+            { from: './creational/abstract-factory/index.html', to: './creational/abstract-factory/' },
             { from: './structural/composite/index.html', to: './structural/composite/' }
         ])
     ],
