@@ -12,6 +12,7 @@ module.exports = {
     entry: {
         'creational/abstract-factory': './creational/abstract-factory/main.ts',
         'creational/factory-method': './creational/factory-method/main.ts',
+        'creational/prototype': './creational/prototype/main.ts',
         'creational/singleton': './creational/singleton/main.ts',
         'structural/composite': './structural/composite/main.ts'
     },
@@ -39,6 +40,7 @@ module.exports = {
             { from: './index.html', to: './' },
             { from: './creational/abstract-factory/index.html', to: './creational/abstract-factory/' },
             { from: './creational/factory-method/index.html', to: './creational/factory-method/' },
+            { from: './creational/prototype/index.html', to: './creational/prototype/' },
             { from: './creational/singleton/index.html', to: './creational/singleton/' },
             { from: './structural/composite/index.html', to: './structural/composite/' }
         ])
