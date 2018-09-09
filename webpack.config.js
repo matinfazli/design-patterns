@@ -14,7 +14,8 @@ module.exports = {
         'creational/factory-method': './creational/factory-method/main.ts',
         'creational/prototype': './creational/prototype/main.ts',
         'creational/singleton': './creational/singleton/main.ts',
-        'structural/composite': './structural/composite/main.ts'
+        'structural/composite': './structural/composite/main.ts',
+        'structural/bridge': './structural/bridge/main.ts'
     },
     output: {
         path: outPath,
@@ -42,7 +43,8 @@ module.exports = {
             { from: './creational/factory-method/index.html', to: './creational/factory-method/' },
             { from: './creational/prototype/index.html', to: './creational/prototype/' },
             { from: './creational/singleton/index.html', to: './creational/singleton/' },
-            { from: './structural/composite/index.html', to: './structural/composite/' }
+            { from: './structural/composite/index.html', to: './structural/composite/' },
+            { from: './structural/bridge/index.html', to: './structural/bridge/' }
         ])
     ],
     cache: false
