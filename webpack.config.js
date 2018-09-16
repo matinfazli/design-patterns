@@ -17,7 +17,8 @@ module.exports = {
         'creational/singleton': './creational/singleton/main.ts',
         'structural/adapter': './structural/adapter/main.ts',
         'structural/bridge': './structural/bridge/main.ts',
-        'structural/composite': './structural/composite/main.ts'
+        'structural/composite': './structural/composite/main.ts',
+        'structural/fly-weight': './structural/fly-weight/main.ts'
     },
     output: {
         path: outPath,
@@ -48,7 +49,8 @@ module.exports = {
             { from: './creational/singleton/index.html', to: './creational/singleton/' },
             { from: './structural/adapter/index.html', to: './structural/adapter/' },
             { from: './structural/bridge/index.html', to: './structural/bridge/' },
-            { from: './structural/composite/index.html', to: './structural/composite/' }
+            { from: './structural/composite/index.html', to: './structural/composite/' },
+            { from: './structural/fly-weight/index.html', to: './structural/fly-weight/' }
         ])
     ],
     cache: false

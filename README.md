@@ -21,7 +21,7 @@ exist over the internet, I have tried my best to implement **real life solutions
 - [x] Composite
 - [ ] Decorator
 - [ ] Facade
-- [ ] Flyweight
+- [x] Flyweight
 - [ ] Proxy
 
 
