@@ -2,7 +2,7 @@
 
 Design patterns are repeatable solutions to problems which occur over and over in software engineering. 
 Here I have gathered the TypeScript version of these solutions. Although these solution might already
-exist over the internet, I have tried my best to gather **real life solutions** so that it is more understandable.
+exist over the internet, I have tried my best to implement **real life solutions** so that it is more understandable.
 
 
 # Patterns
