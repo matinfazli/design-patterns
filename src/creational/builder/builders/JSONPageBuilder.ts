@@ -1,7 +1,7 @@
 import {PageBuilder} from "./PageBuilder";
-import {Page} from "./Page";
+import {Page} from "../models/Page";
 
-export class HTMLPageBuilder implements PageBuilder {
+export class JSONPageBuilder implements PageBuilder {
 
     private page: Page;
 
@@ -18,31 +18,31 @@ export class HTMLPageBuilder implements PageBuilder {
     }
 
     setPageStart(): void {
-        this.page.pageStart = `<html>`;
+        this.page.pageStart = `{"page":{`;
     }
 
     setPageEnd(): void {
-        this.page.pageEnd = `</html>`;
+        this.page.pageEnd = `}}`;
     }
 
     setBodyStart(): void {
-        this.page.bodyStart = `<body>`;
+        this.page.bodyStart = `"body":{`;
     }
 
     setBodyEnd(): void {
-        this.page.bodyEnd = `</body>`;
+        this.page.bodyEnd = `}`;
     }
 
     setTitle(title: string): void {
-        this.page.title = `<head><title>${title}</title></head>`
+        this.page.title = `"head":{"title":"${title}"},`
     }
 
     setHeading(heading: string): void {
-        this.page.heading = `<h1>${heading}</h1>`;
+        this.page.heading = `"heading":"${heading}",`;
     }
 
     setText(text: string): void {
-        this.page.text = `<p>${text}</p>`;
+        this.page.text = `"text":"${text}"`;
     }
 
 }

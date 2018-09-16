@@ -1,8 +1,8 @@
-import {PageBuilder} from "./PageBuilder";
-import {HTMLPageBuilder} from "./HTMLPageBuilder";
-import {JSONPageBuilder} from "./JSONPageBuilder";
-import {PageDirector} from "./PageDirector";
-import {Page} from "./Page";
+import {PageBuilder} from "./builders/PageBuilder";
+import {HTMLPageBuilder} from "./builders/HTMLPageBuilder";
+import {JSONPageBuilder} from "./builders/JSONPageBuilder";
+import {PageDirector} from "./directors/PageDirector";
+import {Page} from "./models/Page";
 
 export class Main {
 

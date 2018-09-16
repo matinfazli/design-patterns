@@ -1,5 +1,5 @@
-import {PageBuilder} from "./PageBuilder";
-import {Page} from "./Page";
+import {PageBuilder} from "../builders/PageBuilder";
+import {Page} from "../models/Page";
 
 export class PageDirector {
 
