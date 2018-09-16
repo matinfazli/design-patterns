@@ -11,6 +11,7 @@ module.exports = {
     context: sourcePath,
     entry: {
         'creational/abstract-factory': './creational/abstract-factory/main.ts',
+        'creational/builder': './creational/builder/main.ts',
         'creational/factory-method': './creational/factory-method/main.ts',
         'creational/prototype': './creational/prototype/main.ts',
         'creational/singleton': './creational/singleton/main.ts',
@@ -40,6 +41,7 @@ module.exports = {
         new CopyWebpackPlugin([
             { from: './index.html', to: './' },
             { from: './creational/abstract-factory/index.html', to: './creational/abstract-factory/' },
+            { from: './creational/builder/index.html', to: './creational/builder/' },
             { from: './creational/factory-method/index.html', to: './creational/factory-method/' },
             { from: './creational/prototype/index.html', to: './creational/prototype/' },
             { from: './creational/singleton/index.html', to: './creational/singleton/' },
