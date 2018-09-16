@@ -16,7 +16,7 @@ exist over the internet, I have tried my best to implement **real life solutions
 
 
 #### Structural
-- [ ] Adapter
+- [x] Adapter
 - [x] Bridge
 - [x] Composite
 - [ ] Decorator
