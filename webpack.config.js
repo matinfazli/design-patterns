@@ -18,6 +18,7 @@ module.exports = {
         'structural/adapter': './structural/adapter/main.ts',
         'structural/bridge': './structural/bridge/main.ts',
         'structural/composite': './structural/composite/main.ts',
+        'structural/facade': './structural/facade/main.ts',
         'structural/fly-weight': './structural/fly-weight/main.ts'
     },
     output: {
