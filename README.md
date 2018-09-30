@@ -22,7 +22,7 @@ exist over the internet, I have tried my best to implement **real life solutions
 - [ ] Decorator
 - [x] Facade
 - [x] Flyweight
-- [ ] Proxy
+- [x] Proxy
 
 
 #### Behavioral
