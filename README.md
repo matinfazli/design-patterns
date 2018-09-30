@@ -20,7 +20,7 @@ exist over the internet, I have tried my best to implement **real life solutions
 - [x] Bridge
 - [x] Composite
 - [ ] Decorator
-- [ ] Facade
+- [x] Facade
 - [x] Flyweight
 - [ ] Proxy
 
